@@ -1,0 +1,6 @@
+To FIND REMAINDER IN PYTHON :I/P: a=34
+                                  b=5
+                             O/P : 4
+a=34
+b=5
+print("Remainder of the program is:",a % b)
