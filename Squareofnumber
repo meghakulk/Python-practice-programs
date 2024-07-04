@@ -1,0 +1,7 @@
+OUTPUT OF THE PROGRAM:Enter the number:5
+                      The average of two numbers: 25
+                      The average of two numbers: 25
+a=int(input("Enter the number:"))
+
+print("The average of two numbers:", a*a)
+print("The average of two numbers:", a**2)
