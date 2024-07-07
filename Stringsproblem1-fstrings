@@ -1,0 +1,7 @@
+OUTPUT OF THE PROGRAM : Enter the name: Megha
+                        Good Afternoon Megha 
+                        Good afternoon Megha
+
+name = input("Enter the name: ")
+print(f"Good Afternoon {name} ") //New type of defining the function using f strings
+print("Good afternoon "+name+"") //Using format functions
