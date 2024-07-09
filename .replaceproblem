@@ -1,0 +1,4 @@
+letter = '''Dear <|Name|>, 
+You are elected! 
+<|Date|>'''
+print(letter.replace("<|Name|>","Megha").replace("<|Date|>","3rd August"))
