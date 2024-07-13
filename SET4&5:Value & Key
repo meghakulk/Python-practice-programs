@@ -1,0 +1,49 @@
+PROBLEM STATEMENT 6: Create AN Empty dict Allow four friends to enter their favorite language as value and use keys as their names.Assume that names are unique
+d = {}
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+
+print(d)
+OUTPUT OF THE PROGRAM:Enter friends name :Megha
+                      Enter the language name:c
+                      Enter friends name :Van
+                      Enter the language name:asembly
+                      Enter friends name :anay
+                      Enter the language name:cpp
+                      {'Megha': 'c', 'Van': 'asembly', 'anay': 'cpp'}
+
+PROBLEM STATEMENT 7:If the two friends name are same but language are different
+d = {}
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+name = input("Enter friends name :")
+lang = input ("Enter the language name:")
+d.update({name: lang})
+
+print(d)
+OUTPUT OF THE PROGRAM : Enter friends name :Megha
+                        Enter the language name:c
+                        Enter friends name :Anny
+                        Enter the language name:cpp
+                        Enter friends name :rohan
+                        Enter the language name:assembly
+                        Enter friends name :Anny
+                        Enter the language name:python
+                        {'Megha': 'c', 'Anny': 'python', 'rohan': 'assembly'}
+
+
+
