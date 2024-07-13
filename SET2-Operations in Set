@@ -1,0 +1,8 @@
+Length of the following set s: s =set()
+                               s.add(20)
+                               s.add(20.0)
+                               s.add("20")
+                               print(s)         #length of s after these operations 
+                               print(len(s))    #length of s after these operations 
+OUTPUT OF THE PROGRAM : {20, '20'}   #for print(s)
+                         2           #for print(len(s))
