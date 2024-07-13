@@ -1,0 +1,3 @@
+PROBLEM STATEMENT : s ={}
+                    print(type(s))
+OUTPUT OF THE PROGRAM : <class 'dict'>
