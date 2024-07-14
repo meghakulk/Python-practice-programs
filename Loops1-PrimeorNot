@@ -1,0 +1,14 @@
+PROBLEM STATEMENT : Number is prime or not
+n = int(input("Enter the number:"))
+for i in range(2,n):
+    if(n%i == 0):
+        print("Number is not prime")
+        break                            #if I dont write break here then it will give both the outputs
+else:
+    print("Number is prime")
+
+OUTPUT OF THE PROGRAM:
+Enter the number:6
+Number is not prime
+Enter the number:2
+Number is prime
