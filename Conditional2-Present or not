@@ -1,0 +1,8 @@
+Problem Statement : To find out whether the given name is present or not
+l = input("Enter the username:")
+if l in ["Harry","Megha","Sixy","Varun"]:
+    print("The name is present")
+else:
+    print("Not present")
+OUTPUT OF THE PROGRAM : Enter the username:Sixy
+                        The name is present
