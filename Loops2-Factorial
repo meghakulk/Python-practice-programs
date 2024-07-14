@@ -1,0 +1,10 @@
+Problem Statement: Factorial of a number
+n = int(input("Enter the number:"))
+product = 1
+for i in range(1, n+1):  #why not n because it takes n-1 Ex;if u 5 it will give u answer as 24 #if we give n+1 then it will give us correct product
+    product *= i
+print(f"The factorial of the number {n} is {product}")  #f strings this is
+
+Output of the program :
+Enter the number:5
+The factorial of the number 5 is 120
