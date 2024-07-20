@@ -1,0 +1,12 @@
+PROBLEM STATEMENT : Create Class "Programmer" for storing information of few programmers working at microsoft
+class programmer:
+    company = "Google"
+    def __init__(self,name,salary,pin):  //Constructor
+        self.name = name                 //Attribute
+        self.salary = salary              //Attribute
+        self.pin = pin                     //Attribute
+        
+p = programmer("Megha",1200000,3456)
+print(p.company,p.name,p.salary,p.pin)
+        
+OUTPUT OF THE PROBLEM STATEMENT : Google Megha 1200000 3456
